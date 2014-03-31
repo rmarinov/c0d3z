@@ -8,19 +8,19 @@ import java.math.*;
 
 public class main {
     public static void main(String[] args){
-    InputStreamReader istream = new InputStreamReader(System.in);
-    BufferedReader bufRead = new BufferedReader(istream);
+        InputStreamReader istream = new InputStreamReader(System.in);
+        BufferedReader bufRead = new BufferedReader(istream);
 
 
-    System.out.println("Input string to test if palindrome: ");
-    Scanner input = new Scanner(System.in);
+        System.out.println("Input string to test if palindrome: ");
+        Scanner input = new Scanner(System.in);
+    
+        String s = input.next();
+        float len = s.length();
 
-    String s = input.next();
-    float len = s.length();
+        int i2 = (int)Math.ceil(len/2);
 
-    int i2 = (int)Math.ceil(len/2);
-
-    char[] test = s.toCharArray();
+        char[] test = s.toCharArray();
 
         boolean isPal = false;
 
