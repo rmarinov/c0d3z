@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/c0d3z.iml" filepath="$PROJECT_DIR$/c0d3z.iml" />
       <module fileurl="file://$PROJECT_DIR$/evenfib/evenfib.iml" filepath="$PROJECT_DIR$/evenfib/evenfib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largestPrime/largestPrime.iml" filepath="$PROJECT_DIR$/largestPrime/largestPrime.iml" />
       <module fileurl="file://$PROJECT_DIR$/mult3and5/mult3and5.iml" filepath="$PROJECT_DIR$/mult3and5/mult3and5.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringPalindrome/stringPalindrome.iml" filepath="$PROJECT_DIR$/stringPalindrome/stringPalindrome.iml" />
     </modules>
