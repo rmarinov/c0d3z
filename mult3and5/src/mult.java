@@ -4,7 +4,7 @@
 
 import java.io.*;
 
-public class main {
+public class mult {
     public static void main(String[] args){
         int max = 1000;
         int sum = 0;
