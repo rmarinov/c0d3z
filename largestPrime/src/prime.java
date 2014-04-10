@@ -31,8 +31,8 @@ public class prime {public static void main(String[] args){
 }
     public static boolean isPrime(long num){
         if(num == 1) return false;
-        for(long i = 1; i <= num; i++){
-            if (num % i == 0 && i != num && i != 1){
+        for(long i = 2; i < num; i++){
+            if (num % i == 0){
                 return false;
             }
         }
