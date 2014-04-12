@@ -10,9 +10,10 @@ public class palProd {    public static void main(String[] args){
             if (isPal(a*b)){
                 System.out.println("The number " + a*b + ", product of " + a + " and " +  b  + " is the largest palindrome made from the product of two 3-digit numbers.");
                 done = true;
+                break;
             }
-            if (done) break;
         }
+        if (done) break;
     }
 
 
