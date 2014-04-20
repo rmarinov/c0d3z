@@ -20,16 +20,11 @@ public class palProd {    public static void main(String[] args){
     }
 
     public static boolean isPal(int num){
-        char[] test = (String.valueOf(num)).toCharArray();
-        for(int i = 0; i < (int)Math.ceil(test.length/2); i++){
-            if( test[i] != test[test.length-i-1]){
-                break;
-            }
-            if (i >= (int)Math.ceil(test.length/2)-1){
-                return true;
-            }
+        char[] test = String.valueOf(num).toCharArray();
+        for(int i = 0; i < test.length/2; i++){
+            if( test[i] != test[test.length-i-1]) return false;
         }
-        return false;
+        return true;
     }
 }
 
